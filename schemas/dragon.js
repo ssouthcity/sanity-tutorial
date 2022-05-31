@@ -11,7 +11,7 @@ export default {
     {
       name: 'elements',
       type: 'array',
-      of: [{type: 'element'}],
+      of: [{type: 'reference', to: [{type: 'element'}]}],
       title: 'Elements',
     },
   ],
